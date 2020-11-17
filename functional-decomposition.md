@@ -40,6 +40,13 @@ You are waiting for someone to give you money so you can give them a snack
 - Wait for the next user to get a snack
     - Display 'awaiting input' again on the panel after snack has been dispensed and money has been received
     
+There are basic programming concepts all throughout the break-down above, including conditional branching, loops, and nested structures
+- For example, comparing the ID number input with all the available ID numbers requires a loop to do it linearly without missing any options
+- An if statement is nested within the loop to compare whether or not the ID number matches the specified snack
+- If statements are also used to compare the amount of money paid versus the actual cost of the selected snack and basic commands are run depending on the result of the if statements
+- Displaying an 'awaiting input' message is also a simple, basic command
     
 ## The Cookie Is Too Big For The Glass (How Do You Fix This Problem?)
 
+You must dip parts of the cookie into the milk contained in the glass
+- 
