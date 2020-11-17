@@ -42,6 +42,7 @@ You are waiting for someone to give you money so you can give them a snack
     - Release one of the selected snacks into the funnel that leads to the bottom of the machine
     - If the user paid more than needed, return the coins back into the intake
         - Find the difference between the amount needed and the amount paid
+        - Return the money and slide it back to the intake if necessary
 - Wait for the next user to get a snack
     - Display 'awaiting input' again on the panel after snack has been dispensed and money has been received
     
@@ -77,10 +78,11 @@ Getting ready and being prepared to go to school and learn
     - Rinse mouth after 2 minutes
 - Turn on the computer
     - Press the power button on my computer
+    - Wait for the applications to load in before proceeding
 - Log into class at 8:30AM
     - Open Google.com
     - Sign in to the google meet with my k12 acount before 8:30AM
-    - Indicate that I am in class by saying 'good morning' or 'hello'
+    - Indicate that I am in class by saying 'good morning' or 'hello' to the teacher
 
 Basic programming concepts can be found in the break-down above
 - Simple commands
@@ -98,14 +100,58 @@ The cookie is too big for the glass
 
 You must dip parts of the cookie into the milk contained in the glass
 - Break the cookie into smaller chunks so it can fit in the glass
-- Dip one section of the cookie at a time into the milk 
+    - Take one cookie that does not fit in the glass
+        - If the diameter of the cookie is larger than the diameter of the rim of the glass, then take that one
+    - Bend it until it snaps in half
+    - Approximate and guess whether these 2 pieces are now able to fit in the glass
+    - If these pieces are still unable to fit into the glass and dip inside the milk, then bend them again
+    - There should now be 4 pieces of this cookie, divided evenly into quarters
+    - If these pieces are still too big, then repeat the process and bend them again until each piece can finally fit in the glass
+- Dip all pieces of the cookie into the milk 
+    - Take one of the pieces and plunge it into the milk
+        - Grab one of the divided pieces
+        - Hover that piece over the milk
+        - Let go and let the piece of cookie soak with milk
+        - Take it back out once you think the cookie has absorbed enough milk
+    - Take another piece and do the same
+    - Repeat until all pieces have been dipped in the milk
 
-There are many ways to prevent this problem for next time
+There are many ways to prevent this problem for next time:
 - Get a larger glass and pour the milk in there
+    - Compare the diameter of the cookie versus the diameter of the rim of the glass
+    - If the diameter of the cookie is greater than the rim of the glass, then choose another glass with a larger rim diameter
+    - Take the new glass from the cupboards that has a larger rim diameter and compare it with the cookie's diameter again
+    - If the cookie's diameter is smaller than the cup's rim diameter, then this problem is prevented
+
 - Buy smaller cookies from the store
+    - Go to any store that sells cookies
+        - Walk or drive there depending on distance
+    - Walk down the aisle until you see the cookie section
+    - Grab a bag of appropriate sized cookies
+        - Make sure the cookies' diameter is less than the rim diameter of the glass you have at home
+        - If the cookies' diameter is still greater than the rim diameter, move to the next bag of cookies and compare their diameters
+        - The bag of appropriate sized cookies will have cookies with a diameter less than that of the rim diameter
+    - Go to the cashier and pay up
+        - Check the price on the price tag
+        - Grab more than or equal to that amount of money from your pocket
+        - Give this to the cashier
+        - Grab the change (if any)
+    - Go back home with the new bag of smaller cookies
+        - Use the same method of transportation that you used earlier
+    - Now, the cookie's diameter should be smaller than the cup's rim diameter, thus, the problem is prevented
 
 How can this problem be solved with an app?
-- An app that is designed to
+- An app that is designed to tell the user whether or not the cookies are too big for the glass
+    - First, input the rim diameter of the glass you will be using and pouring the milk in
+    - Next, input the estimated diameter of each cookie that you will be eating
+    - Now, the app will compare the 2 diameters and the output will depend on the results
+        - If the cookie diameter is greater than or equal to the rim diameter...
+            - Give suggestions on how to break the cookie
+                - For example, if the diameter of the cookie is nearly double the diameter of the glass, the app will suggest to bend the cookie directly in half
+                - If the cookie is much larger than the rim diameter, the app will suggest to break the cookie in the most effective ways possible to save time (thirds, 
+                quarters, fifths, etc.)
+        - If the cookie diameter is less than the rim diameter...
+            - Display, 'All Good!'
 
 
 The spoon dropped into the gravy
