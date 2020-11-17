@@ -1,6 +1,8 @@
-# Functional Decomposition
+Functional Decomposition
+------------------------
 
-## Vending machine from a human perspective (Example from class)
+Vending machine from a human perspective (Example from class)
+-------------------------------------------------------------
 
 You get a bag of chips from a vending machine
 - Approach machine
@@ -19,7 +21,8 @@ You get a bag of chips from a vending machine
     - Grab chips
     - Pull your arm out (with the chips)
 
-## Vending machine from the machine's perspective 
+Vending machine from the machine's perspective 
+----------------------------------------------
 
 You are waiting for someone to give you money so you can give them a snack
 - Awaiting input from a user
@@ -46,7 +49,8 @@ There are basic programming concepts all throughout the break-down above, includ
 - If statements are also used to compare the amount of money paid versus the actual cost of the selected snack and basic commands are run depending on the result of the if statements
 - Displaying an 'awaiting input' message is also a simple, basic command
 
-## Waking up and going to school
+Waking up and going to school
+-----------------------------
 
 Getting ready and being prepared to go to school and learn
 - Wake up at 8AM
@@ -85,7 +89,8 @@ Basic programming concepts can be found in the break-down above
     - My alarm is set on a loop every week from Monday to Friday
     - I must repeatedly scrub the toothbrush on my teeth for 2 minutes (to make sure it is clean)
 
-## The cookie is too big for the glass
+The cookie is too big for the glass
+-----------------------------------
 
 You must dip parts of the cookie into the milk contained in the glass
 - Break the cookie into smaller chunks so it can fit in the glass
@@ -98,7 +103,8 @@ There are many ways to prevent this problem for next time
 How can this problem be solved with an app?
 - An app that is designed to
 
-## The spoon dropped into the gravy
+The spoon dropped into the gravy
+--------------------------------
 
 To fix this problem, you must clean the spoon so it can be used again
 - 
