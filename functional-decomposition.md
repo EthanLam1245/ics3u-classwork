@@ -45,8 +45,66 @@ There are basic programming concepts all throughout the break-down above, includ
 - An if statement is nested within the loop to compare whether or not the ID number matches the specified snack
 - If statements are also used to compare the amount of money paid versus the actual cost of the selected snack and basic commands are run depending on the result of the if statements
 - Displaying an 'awaiting input' message is also a simple, basic command
-    
-## The Cookie Is Too Big For The Glass (How Do You Fix This Problem?)
+
+## Waking up and going to school
+
+Getting ready and being prepared to go to school and learn
+- Wake up at 8AM
+    - Use an alarm which is set on loop weekly from Monday to Friday
+    - Turn off the alarm once wide awake
+- Make my bed
+    - Grab the blankets and fold them neatly 
+    - Place the folded blankets on the bed
+    - Rearrange the pillow back to its usual position
+- Eat a quick breakfast
+    - Go downstairs
+    - Pour some cereal into a bowl
+    - Pour milk into the bowl full of cereal
+    - Grab a spoon
+    - Enjoy the meal
+- Brush teeth
+    - Go upstairs
+    - Wet the toothbrush
+    - Apply toothpaste on the toothbrush
+    - Scrub the toothbrush on my teeth for 2 minutes
+    - Rinse mouth after 2 minutes
+- Turn on the computer
+    - Press the power button on my computer
+- Log into class at 8:30AM
+    - Open Google.com
+    - Sign in to the google meet with my k12 acount before 8:30AM
+    - Indicate that I am in class by saying 'good morning' or 'hello'
+
+Basic programming concepts can be found in the break-down above
+- Simple commands
+    - Almost every instruction, such as 'go downstairs' or 'go upstairs' or 'say good morning or hello' are all simple commands
+- Conditional statements
+    - If I am wide awake, then turn off the alarm, if not, I should leave it running
+    - If I am finished brushing my teeth, then rinse my mouth
+- Looping/repetition
+    - My alarm is set on a loop every week from Monday to Friday
+    - I must repeatedly scrub the toothbrush on my teeth for 2 minutes (to make sure it is clean)
+
+## The cookie is too big for the glass
 
 You must dip parts of the cookie into the milk contained in the glass
+- Break the cookie into smaller chunks so it can fit in the glass
+- Dip one section of the cookie at a time into the milk 
+
+There are many ways to prevent this problem for next time
+- Get a larger glass and pour the milk in there
+- Buy smaller cookies from the store
+
+How can this problem be solved with an app?
+- An app that is designed to
+
+## The spoon dropped into the gravy
+
+To fix this problem, you must clean the spoon so it can be used again
+- 
+
+There are several ways to prevent this problem
+- 
+
+How can this problem be solved with a robotic system?
 - 
