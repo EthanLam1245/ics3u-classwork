@@ -1,6 +1,7 @@
 Functional Decomposition
 ------------------------
 
+
 Vending machine from a human perspective (Example from class)
 -------------------------------------------------------------
 
@@ -20,6 +21,7 @@ You get a bag of chips from a vending machine
     - Put arm through slot
     - Grab chips
     - Pull your arm out (with the chips)
+
 
 Vending machine from the machine's perspective 
 ----------------------------------------------
@@ -48,6 +50,7 @@ There are basic programming concepts all throughout the break-down above, includ
 - An if statement is nested within the loop to compare whether or not the ID number matches the specified snack
 - If statements are also used to compare the amount of money paid versus the actual cost of the selected snack and basic commands are run depending on the result of the if statements
 - Displaying an 'awaiting input' message is also a simple, basic command
+
 
 Waking up and going to school
 -----------------------------
@@ -89,6 +92,7 @@ Basic programming concepts can be found in the break-down above
     - My alarm is set on a loop every week from Monday to Friday
     - I must repeatedly scrub the toothbrush on my teeth for 2 minutes (to make sure it is clean)
 
+
 The cookie is too big for the glass
 -----------------------------------
 
@@ -102,6 +106,7 @@ There are many ways to prevent this problem for next time
 
 How can this problem be solved with an app?
 - An app that is designed to
+
 
 The spoon dropped into the gravy
 --------------------------------
