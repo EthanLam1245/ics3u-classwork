@@ -122,7 +122,6 @@ There are many ways to prevent this problem for next time:
     - If the diameter of the cookie is greater than the rim of the glass, then choose another glass with a larger rim diameter
     - Take the new glass from the cupboards that has a larger rim diameter and compare it with the cookie's diameter again
     - If the cookie's diameter is smaller than the cup's rim diameter, then this problem is prevented
-
 - Buy smaller cookies from the store
     - Go to any store that sells cookies
         - Walk or drive there depending on distance
