@@ -158,10 +158,15 @@ The spoon dropped into the gravy
 --------------------------------
 
 To fix this problem, you must clean the spoon so it can be used again
-- 
+- Grab the spoon out of the gravy
+- Walk over to the sink with the spoon in hand
+- Wash the spoon until it is no longer covered in gravy
+- Bring it back to the dinning table
+- Put only the front of the spoon in the gravy and at an angle that will not allow the spoon to slip in again
 
 There are several ways to prevent this problem
-- 
+- Get a longer spoon that way there is no chance for it to drop into the gravy
+- Pour the gravy into a narrower container so the spoon cannot fall into it
 
 How can this problem be solved with a robotic system?
 - 
