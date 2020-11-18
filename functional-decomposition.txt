@@ -159,14 +159,48 @@ The spoon dropped into the gravy
 
 To fix this problem, you must clean the spoon so it can be used again
 - Grab the spoon out of the gravy
+    - Use 2 fingers and hold on to the spoon in the gravy while touching and contaminating as less of the gravy as possible
+    - While holding on to the spoon, life your hand out of the container of gravy
 - Walk over to the sink with the spoon in hand
+    - Walk until you are within arms reach of the sink
+    - Ensure that nothing drips onto the floor
+        - Have another hand under the spoon incase any gravy drips down
 - Wash the spoon until it is no longer covered in gravy
-- Bring it back to the dinning table
+    - Turn on the water faucet and extend your arm until the spoon is directly under the running water
+    - Scrub the spoon with both of your hands until little to no gravy is left on it
+    - Turn off the tap
+- Bring it back to the dinning table if you are to use it again (If not, then throw it into the dishwasher)
+    - Walk until you are by the dinning table and sit back down on the seat you got up from while holding on to the clean spoon
 - Put only the front of the spoon in the gravy and at an angle that will not allow the spoon to slip in again
+    - Rest the spoon on the edge of the container and release it from your grip once it is stable, with the scoop part submerged in the gravy
 
 There are several ways to prevent this problem
-- Get a longer spoon that way there is no chance for it to drop into the gravy
-- Pour the gravy into a narrower container so the spoon cannot fall into it
+- Get a longer spoon than the diagonal of the container that way there is no chance for it to drop into the gravy
+    - Measure the diagonal of the container and compare it with the spoon's length
+    - If the spoon's length is less than the diagonal of the container, get another spoon from the drawer
+        - The spoon must be of different length
+        - Compare the length of this spoon with the diagonal of the container again
+        - If the spoon is still smaller than the diagonal of the container, repeat this process by getting another spoon from the drawer
+    - If the spoon's length is greater than the diagonal of the container, then there is no way the spoon will drop into the gravy
+- Another way to prevent this problem is by pouring the gravy into a narrower container so the spoon cannot fall into it
+    - Measure the length of the spoon and compare it to all the available containers
+    - Go through each container that can be found in every cupboard
+    - If the length of the spoon is less than the diagonal of that container, then get another container
+        - Each container must have different dimensions
+        - Compare the length of the spoon with the diagonal of every new container
+        - If the container's diagonal is still greater than the spoon's length, repeat this process by getting another container from the cupboard
+    - If the length of the spoon is greater than the diagonal of the container, then this problem is prevented
 
 How can this problem be solved with a robotic system?
-- 
+- A robot can pick up the spoon and throw it into the sink, similarly to what a human would do (only works with metallic spoons)
+    - If the spoon is visible, the robot can extend a robotic arm with a camera lens to determine the location of the spoon within the gravy
+        - The camera lens can 'see' where this spoon is and allows for the metallic arm to hover right above it
+    - If the spoon is not visible within the gravy, but is metal, the robot can again, extend a metallic arm, but this time with magnets to determine the location of the spoon
+        - The clean robotic arm goes through the gravy until some metal is picked up by the magnets on the arm
+            - The robotic arm starts from the left of the container and works its way to the right side
+    - Once the location of the spoon has been determined, the extended robotic arm can grab and hold on to the spoon
+        - The robot's 'fingers' curl around the spoon to get a good grip
+    - The robot then lifts the spoon out from the gravy and drops it into the sink
+        - Once the robot has the spoon in hand, it rolls over towards the sink using its mechanical components
+        - The robot extends its robotic arm directly over the sink
+        - The robot then uncurls its fingers and releases its grip to drop the spoon directly into the sink for washing later
