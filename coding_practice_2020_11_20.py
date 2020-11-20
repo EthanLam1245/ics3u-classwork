@@ -17,3 +17,13 @@ FirstDimension = float(input("Please enter the first dimension of the rectangula
 SecondDimension = float(input("Please enter the second dimension of the rectangular prism: "))
 ThirdDimension = float(input("Please enter the third dimension of the rectangular prism: "))
 print(f"The volume of this rectangular prism is {FirstDimension*SecondDimension*ThirdDimension} units cubed.")
+
+print("")
+print("Problem 4")
+Answer = input("Do you just join a Google Meet and mute the teacher? ")
+if Answer == "yes" or Answer == "Yes":
+    print("That's probably not a good idea")
+elif Answer == "no" or Answer == "No":
+    print("Ok. Good.")
+else:
+    print("That is not a valid answer!")
