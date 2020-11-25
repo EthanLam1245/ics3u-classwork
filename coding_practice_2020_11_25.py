@@ -175,7 +175,6 @@ else:
     print(f"Name of individual that appears on a ${denomination_of_banknote:.2f} banknote: {name_of_individual}")
 
 #CodingBat (10 questions) - done in CodingBat directly
-
 #String-1 Exercise 1 - hello_name
 
 def hello_name(name):
