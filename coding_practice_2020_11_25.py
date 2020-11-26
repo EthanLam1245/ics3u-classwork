@@ -216,7 +216,7 @@ def first_two(str):
 #String-1 Exercise 7 - first_half
 
 def first_half(str):
-    half_of_string = len(str)/2
+    half_of_string = len(str) / 2
     return str[0:half_of_string]
 
 #String-1 Exercise 8 - without_end
