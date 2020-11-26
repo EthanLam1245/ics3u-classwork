@@ -123,7 +123,7 @@ elif note_name[0] == "A":
     frequency = 440.00
 elif note_name[0] == "B":
     frequency = 493.88
-frequency = frequency/2**(4-octave)
+frequency = frequency / 2 ** (4 - octave)
 print(f"The frequency of this note is {frequency}Hz")
 
 #Exercise 42
