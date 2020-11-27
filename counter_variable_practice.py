@@ -1,4 +1,4 @@
-# Loop with a counter variable
+# Loop with a counter variable practice
 
 # 1. from 9 to 457 by 16.
 i = 9
