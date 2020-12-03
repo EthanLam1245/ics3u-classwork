@@ -91,4 +91,5 @@ def first_two(string: str) -> str:
     return string[0:2]
 
 new_string = first_two("Hello World")
-print(new_string)
+print(f"The first two characters of the string is {new_string}")
+
