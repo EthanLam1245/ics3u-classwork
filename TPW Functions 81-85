@@ -63,11 +63,13 @@ def main():
             ordinal = ordinal_number(number)
             if ordinal != "":
                 print(f"The ordinal number of {number} is {ordinal}.")
+                valid = True
             else:
                 print("The integer must be between 1 and 12.")
-            valid = True
+                print()
         except ValueError:
             print("INVALID INPUT")
+            print()
     
 
 #Exercise 81: Compute the Hypotenuse
