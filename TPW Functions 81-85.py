@@ -103,7 +103,7 @@ def calculate_median(num1: float, num2: float, num3: float) -> float:
 
 #Exercise 85: Convert an Integer to its Ordinal Number
 def ordinal_number(integer: int) -> str:
-    english_ordinal_numbers = "one two three four five six seven eight nine ten eleven twelve".split(" ")
+    english_ordinal_numbers = "first second third fourth fifth sixth seventh eight ninth tenth eleventh twelfth".split(" ")
     if 1 <= integer <= 12:
         return english_ordinal_numbers[integer - 1]
     else:
