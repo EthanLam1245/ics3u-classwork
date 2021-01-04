@@ -2,7 +2,7 @@ import math
 
 # CONSTANTS
 base_fare = 4
-variable = 0.25 / 140 * 1000
+variable = 0.25
 
 first_item = 10.95
 subsequent_items = 2.95
@@ -79,7 +79,8 @@ def calculate_hypotenuse(first_side: float, second_side: float) -> float:
 
 #Exercise 82: Taxi Fare
 def total_fare(distance_traveled: float) -> float:
-    return base_fare + variable * distance_traveled
+    multiplier = int(str(distance_traveled * 1000 / 140)[0])
+    return base_fare + variable * multiplier
 
 
 #Exercise 83: Shipping Calculator
