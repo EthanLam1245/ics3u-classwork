@@ -10,60 +10,28 @@ subsequent_items = 2.95
 
 # MAIN FUNCTION
 def main():
-    while True:
-        try:
-            side_1 = float(input("Please enter the first shortest side: "))
-            if side_1 <= 0:
-                raise ValueError
-            side_2 = float(input("Please enter the second shortest side: "))
-            if side_2 <= 0:
-                raise ValueError
-            break
-        except ValueError:
-            print("INVALID INPUT")
-            print()
-
+    side_1 = get_positive_number("Please enter the first shortest side: ")
+    side_2 = get_positive_number("Please enter the second shortest side: ")
+        
     hypotenuse = calculate_hypotenuse(side_1, side_2)
     print(f"The length of the hypotenuse is {hypotenuse} units.")
     print()
 
-    while True:
-        try:
-            distance = float(input("Please enter the distance traveled (in kilometers): "))
-            if distance < 0:
-                raise ValueError
-            total = total_fare(distance)
-            break
-        except ValueError:
-            print("INVALID INPUT")
-            print()
-    
+    distance = get_positive_number("Please enter the distance traveled (in kilometers): ")
+
+    total = total_fare(distance)
     print(f"The cost of the fare is ${total:.2f}")
     print()
 
-    while True:
-        try:
-            items_purchased = int(input("Please enter the number of items purchased: "))
-            if items_purchased < 0:
-                raise ValueError
-            break
-        except ValueError:
-            print("INVALID INPUT")
-            print()
+    items_purchased = get_positive_number("Please enter the number of items purchased: ")
 
     charge = shipping_charge(items_purchased)
     print(f"The shipping charge is ${charge:.2f}")
     print()
 
-    while True:
-        try:
-            first_value = float(input("Please enter the first number: "))
-            second_value = float(input("Please enter the second number: "))
-            third_value = float(input("Please enter the third number: "))
-            break
-        except ValueError:
-            print("INVALID INPUT")
-            print()
+    first_value = get_valid_number("Please enter the first number: ")
+    second_value = get_valid_number("Please enter the second number: ")
+    third_value = get_valid_number("Please enter the third number: ")
 
     median = calculate_median(first_value, second_value, third_value)
     print(f"The median of these three numbers is {median}")
@@ -72,9 +40,7 @@ def main():
     while True:
         try:
             number = int(input("Please enter an integer: "))
-            ordinal = ordinal_number(number)
-            if ordinal != "":
-                print(f"The ordinal number of {number} is {ordinal}.")
+            if 1 <= number <= 12:
                 break
             else:
                 print("The integer must be between 1 and 12.")
@@ -82,6 +48,8 @@ def main():
         except ValueError:
             print("INVALID INPUT")
             print()
+    ordinal = ordinal_number(number)
+    print(f"The ordinal number of {number} is {ordinal}.")
     
 
 #Exercise 81: Compute the Hypotenuse
@@ -108,8 +76,7 @@ def total_fare(distance_traveled: float) -> float:
     Returns:
         The cost of the fare in dollars.
     """
-    multiplier = int(str(distance_traveled * 1000 / 140)[0])
-    return base_fare + variable * multiplier
+    return base_fare + variable * (distance_traveled * 1000 // 140)
 
 
 #Exercise 83: Shipping Calculator
@@ -153,7 +120,7 @@ def ordinal_number(integer: int) -> str:
     """Identifies the ordinal number from 1 through 12.
 
     Args:
-        integer: An integer between 1 and 12 (inclusive)
+        integer: An integer between 1 and 12 (inclusive).
     
     Returns:
         The ordinal number of that integer.
@@ -165,5 +132,82 @@ def ordinal_number(integer: int) -> str:
         return ""
 
 
+def get_positive_number(prompt: str) -> float:
+    """Gets a positive number (excluding 0) as user input.
+
+    Args:
+        prompt: The message the user sees when prompted to type a number.
+    
+    Returns:
+        A positive number (excluding 0).
+    """
+    while True:
+        try:
+            number = float(input(prompt))
+            if number <= 0:
+                raise ValueError
+            break
+        except ValueError:
+            print("INVALID INPUT")
+            print()
+    return number
+
+
+def get_valid_number(prompt: str) -> float:
+    """Gets a number as user input.
+
+    Args:
+        prompt: The message the user sees when prompted to type a number.
+
+    Returns:
+        A number.
+    """
+    while True:
+        try:
+            value = float(input(prompt))
+            break
+        except ValueError:
+            print("INVALID INPUT")
+            print()
+    return value
+
+
+def test_suite():
+    hypotenuse = calculate_hypotenuse(3, 4)
+    assert hypotenuse == 5
+    hypotenuse = calculate_hypotenuse(4, 3)
+    assert hypotenuse == 5
+    hypotenuse = calculate_hypotenuse(12, 16)
+    assert hypotenuse == 20
+
+    fare_cost = total_fare(0.14)
+    assert fare_cost == 4.25
+    fare_cost = total_fare(0.3)
+    assert fare_cost == 4.5
+    fare_cost = total_fare(1)
+    assert fare_cost == 5.75
+
+    shipping_cost = shipping_charge(1)
+    assert shipping_cost == 10.95
+    shipping_cost = shipping_charge(20)
+    assert shipping_cost == 67
+    shipping_cost = shipping_charge(4)
+    assert shipping_cost == 19.8
+
+    median = calculate_median(-1, 0, -2)
+    assert median == -1
+    median = calculate_median(103, 123, 219)
+    assert median == 123
+    median = calculate_median(423, -123, 186)
+    assert median == 186
+
+    ordinal = ordinal_number(1)
+    assert ordinal == "first"
+    ordinal = ordinal_number(12)
+    assert ordinal == "twelfth"  
+    ordinal = ordinal_number(6)
+    assert ordinal == "sixth"
+
 if __name__ == "__main__":
-   main()
+    main()
+    test_suite()
