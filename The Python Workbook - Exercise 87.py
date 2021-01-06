@@ -6,6 +6,7 @@ def main():
             break
         except ValueError:
             print("INVALID INPUT - Enter and integer.")
+            print()
 
     centered_string = center_string(string, width)
     print(centered_string)
