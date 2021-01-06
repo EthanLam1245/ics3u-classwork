@@ -5,7 +5,7 @@ def main():
             width = int(input("Please enter the width of the terminal: "))
             break
         except ValueError:
-            print("INVALID INPUT - Enter and integer.")
+            print("INVALID INPUT - Enter an integer.")
             print()
 
     centered_string = center_string(string, width)
