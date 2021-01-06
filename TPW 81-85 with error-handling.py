@@ -40,13 +40,13 @@ def main():
     while True:
         try:
             number = int(input("Please enter an integer: "))
-            if 1 <= number <= 12:
-                break
-            else:
-                print("The integer must be between 1 and 12.")
-                print()
         except ValueError:
             print("INVALID INPUT")
+            print()
+        if 1 <= number <= 12:
+            break
+        else:
+            print("The integer must be between 1 and 12.")
             print()
     ordinal = ordinal_number(number)
     print(f"The ordinal number of {number} is {ordinal}.")
