@@ -10,6 +10,7 @@ def main():
     centered_string = center_string(string, width)
     print(centered_string)
 
+    
 def center_string(string: str, width_of_terminal: int) -> str:
     new_string = ""
     width_of_terminal -= len(string)
