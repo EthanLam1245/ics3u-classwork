@@ -33,10 +33,7 @@ def center_string(string: str, width_of_terminal: int) -> str:
         while i < width_of_terminal // 2:
             new_string += " "
             i += 1
-    i = 0
-    while i < len(string):
-        new_string += string[i]
-        i += 1
+    new_string += string
     return new_string
 
 
