@@ -24,16 +24,10 @@ def center_string(string: str, width_of_terminal: int) -> str:
     """
     new_string = ""
     width_of_terminal -= len(string)
-    if width_of_terminal % 2 == 0:
-        i = 0
-        while i < width_of_terminal / 2:
-            new_string += " "
-            i += 1
-    elif width_of_terminal % 2 == 1:
-        i = 0
-        while i < width_of_terminal // 2:
-            new_string += " "
-            i += 1
+    i = 0
+    while i < width_of_terminal // 2:
+        new_string += " "
+        i += 1
     new_string += string
     return new_string
 
