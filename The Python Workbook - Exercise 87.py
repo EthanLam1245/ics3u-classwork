@@ -10,8 +10,17 @@ def main():
     centered_string = center_string(string, width)
     print(centered_string)
 
-    
+
 def center_string(string: str, width_of_terminal: int) -> str:
+    """Centers a string based on a width.
+
+    Args:
+        string: A string entered gotten as user input.
+        width_of_terminal: An integer that determines where the string will be centered.
+    
+    Returns:
+        A new string consisting of the original string and the correct number of leading spaces.
+    """
     new_string = ""
     width_of_terminal -= len(string)
     if width_of_terminal % 2 == 0:
