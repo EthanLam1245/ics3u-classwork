@@ -89,10 +89,6 @@ def ordinal_number(integer: int) -> str:
         return ""
 
 
-if __name__ == "__main__":
-    main()
-
-
 
 # test_main.py file
 import math
