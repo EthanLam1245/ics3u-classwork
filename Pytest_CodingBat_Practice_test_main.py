@@ -94,4 +94,3 @@ def test_in1to10():
     assert in1to10(-1, True) == True
     assert in1to10(99, False) == False
     assert in1to10(-99, True) == True
-    
